@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getRollNo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rollNo",
+						"type": "uint256"
+					}
+				],
+				"name": "setRollNo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pr4.sol": "MyRollNumber"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pr4.sol": {
+			"keccak256": "0x7f44450d9a6949ff9ecaa1fa2a64442a3a74ebc76f0ae9ca61e9711e991cdb66",
+			"urls": [
+				"bzz-raw://5b71b32d08fcff707c5ee5604657b74cb7f4bf4cb42e9afbd16e4d097f20d0dd",
+				"dweb:/ipfs/QmV5ciuBh5RjTgM9rKFFonGvWp4out7uyi5Kk2m21oXBiT"
+			]
+		}
+	},
+	"version": 1
+}
